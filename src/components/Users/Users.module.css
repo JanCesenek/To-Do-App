@@ -1,0 +1,35 @@
+.DefaultForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DefaultFormInputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.Disabled:hover {
+  cursor: not-allowed;
+}
+
+.SwitchButton {
+  margin-bottom: 2rem;
+}
+
+.UserList {
+  display: flex;
+  justify-content: space-around;
+  width: 50rem;
+}
+
+.UserListContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  font-size: 2rem;
+}

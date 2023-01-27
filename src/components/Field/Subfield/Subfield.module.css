@@ -1,0 +1,24 @@
+.HasError {
+  color: red;
+}
+
+.Item {
+  display: flex;
+  width: 20rem;
+  background: white;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.Subfield {
+  background: greenyellow;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 50rem;
+  justify-self: center;
+}
+
+.SubfieldTop {
+  height: 13rem;
+  border-bottom: 1px solid black;
+}

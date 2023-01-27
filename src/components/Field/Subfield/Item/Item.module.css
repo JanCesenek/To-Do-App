@@ -1,0 +1,23 @@
+.Item {
+  display: flex;
+  width: 20rem;
+  background: white;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.ItemEasy {
+  color: yellowgreen;
+}
+
+.ItemMedium {
+  color: orange;
+}
+
+.ItemHard {
+  color: red;
+}
+
+.NoSpecialEffects {
+  text-decoration: none;
+}

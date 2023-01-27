@@ -1,0 +1,46 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server/server.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.26.0",
+    "classnames": "^2.3.1",
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "mongoose": "^6.3.1",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.2.0",
+    "react-css-modules": "^4.7.11",
+    "react-dom": "^16.2.0",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "^5.0.0",
+    "react-slugify": "^2.1.0",
+    "sass": "^1.49.9",
+    "slugify": "^1.6.5",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "npm run server --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm start\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
